@@ -16,6 +16,12 @@
     <Filter Include="源文件\induction">
       <UniqueIdentifier>{b1e65b30-5b97-4e8b-bbf4-5af50c23fb81}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\base">
+      <UniqueIdentifier>{423bf0fa-31ee-4bd9-8239-acd9385ef811}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\base">
+      <UniqueIdentifier>{2128b83f-1698-49cc-9ec3-b18e3ae6945f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="glad.c">
@@ -24,10 +30,16 @@
     <ClCompile Include="triangle.cpp">
       <Filter>源文件\induction</Filter>
     </ClCompile>
+    <ClCompile Include="2.triangle_praitice_1.cpp">
+      <Filter>源文件\induction</Filter>
+    </ClCompile>
+    <ClCompile Include="base.cpp">
+      <Filter>源文件\base</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="test.h">
-      <Filter>头文件</Filter>
+    <ClInclude Include="base.h">
+      <Filter>头文件\base</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

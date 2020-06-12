@@ -132,11 +132,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="2.triangle_praitice_1.cpp" />
+    <ClCompile Include="base.cpp" />
     <ClCompile Include="glad.c" />
     <ClCompile Include="triangle.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="test.h" />
+    <ClInclude Include="base.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
