@@ -3,7 +3,6 @@
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
 
-//顶点着色器
 extern const char *vertexShaderSource = "#version 330 core\n"
 	"layout (location = 0) in vec3 aPos;\n"
 	"void main()\n"
@@ -11,7 +10,6 @@ extern const char *vertexShaderSource = "#version 330 core\n"
 	"	gl_Position = vec4(aPos.x, aPos.y, aPos.z, 1.0);\n"
 	"}\0";
 
-//片段着色器
 extern const char *fragmentShaderSource = "#version 330 core\n"
 	"out vec4 FragColor;\n"
 	"void main()\n"
