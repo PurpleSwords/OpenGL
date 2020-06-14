@@ -158,6 +158,7 @@ int main_1()
 		processInput(window);
 
 		//渲染指令，清空颜色缓冲
+		//这里处理的是窗体背景色，不是三角形颜色，注意区分
 		glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
 		glClear(GL_COLOR_BUFFER_BIT);
 
