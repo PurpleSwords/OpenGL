@@ -39,6 +39,9 @@
     <ClCompile Include="3.triangle_praitice_2.cpp">
       <Filter>源文件\1.induction</Filter>
     </ClCompile>
+    <ClCompile Include="4.triangle_praitice_3.cpp">
+      <Filter>源文件\1.induction</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="base.h">
