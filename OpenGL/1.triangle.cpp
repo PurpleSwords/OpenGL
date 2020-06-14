@@ -139,6 +139,10 @@ int main_1()
 	glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), (void*)0);
 	glEnableVertexAttribArray(0);
 
+	//通过绑定handle为0的VBO，可以取消对所有同类型VBO的绑定。
+	//同一时间只能绑定一个同类型的VBO，只有当前被绑定的VBO才会被用户操作。
+	//如果您使用的是现代OpenGL(核心配置文件),那么取消绑定VAO绝对是一种浪费(消耗性能)。
+	//由于每个顶点的设置和绘制操作都必须绑定VAO,因此不需要解除之前的VAO绑定,再绑定不同的VAO。
 	glBindBuffer(GL_ARRAY_BUFFER, 0);
 	glBindVertexArray(0);
 

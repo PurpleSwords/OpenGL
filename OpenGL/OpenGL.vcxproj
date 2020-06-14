@@ -134,6 +134,7 @@
   <ItemGroup>
     <ClCompile Include="1.triangle.cpp" />
     <ClCompile Include="2.triangle_praitice_1.cpp" />
+    <ClCompile Include="3.triangle_praitice_2.cpp" />
     <ClCompile Include="base.cpp" />
     <ClCompile Include="glad.c" />
   </ItemGroup>
