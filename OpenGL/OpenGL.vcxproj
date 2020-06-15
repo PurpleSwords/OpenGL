@@ -137,6 +137,7 @@
     <ClCompile Include="3.triangle_praitice_2.cpp" />
     <ClCompile Include="4.triangle_praitice_3.cpp" />
     <ClCompile Include="5.shaders_uniform.cpp" />
+    <ClCompile Include="6.shaders_interpolation.cpp" />
     <ClCompile Include="base.cpp" />
     <ClCompile Include="glad.c" />
   </ItemGroup>

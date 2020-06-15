@@ -45,6 +45,9 @@
     <ClCompile Include="5.shaders_uniform.cpp">
       <Filter>源文件\1.induction</Filter>
     </ClCompile>
+    <ClCompile Include="6.shaders_interpolation.cpp">
+      <Filter>源文件\1.induction</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="base.h">
