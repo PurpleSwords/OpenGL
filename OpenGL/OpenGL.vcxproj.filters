@@ -48,10 +48,24 @@
     <ClCompile Include="6.shaders_interpolation.cpp">
       <Filter>源文件\1.induction</Filter>
     </ClCompile>
+    <ClCompile Include="7.shaders_class.cpp">
+      <Filter>源文件\1.induction</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="base.h">
       <Filter>头文件\base</Filter>
     </ClInclude>
+    <ClInclude Include="shader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shader\shader.fs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="shader\shader.vs">
+      <Filter>资源文件</Filter>
+    </None>
   </ItemGroup>
 </Project>

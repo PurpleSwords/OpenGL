@@ -26,6 +26,7 @@ int main_1()
 		glfwTerminate();
 		return -1;
 	}
+	//设置当前窗口的上下文
 	glfwMakeContextCurrent(window);
 
 	//初始化GLAD
