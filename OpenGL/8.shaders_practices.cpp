@@ -6,7 +6,7 @@
 #include "shader.h"
 #include "base.h"
 
-int main_7()
+int main_8()
 {
 	//初始化
 	glfwInit();
@@ -35,7 +35,8 @@ int main_7()
 	glfwSetFramebufferSizeCallback(window, framebuffer_size_callback);
 
 	//构建编译着色器
-	Shader ourShader("shader/shader.vs", "shader/shader.fs");
+	Shader ourShader("shader/shader_8.vs", "shader/shader_8.fs");
+
 	float vertices[] = {
 		//位置				//颜色
 		0.5f, -0.5f, 0.0f,  1.0f,0.0f,0.0f,	//右下
@@ -68,6 +69,9 @@ int main_7()
 		glClear(GL_COLOR_BUFFER_BIT);
 
 		ourShader.use();
+		//增加x轴偏移量
+		float xOffset = 0.3f;
+		ourShader.setFloat("xOffset", xOffset);
 		glBindVertexArray(VAO);
 		glDrawArrays(GL_TRIANGLES, 0, 3);
 

@@ -133,12 +133,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="1.triangle.cpp" />
-    <ClCompile Include="2.triangle_praitice_1.cpp" />
-    <ClCompile Include="3.triangle_praitice_2.cpp" />
-    <ClCompile Include="4.triangle_praitice_3.cpp" />
+    <ClCompile Include="2.triangle_practice_1.cpp" />
+    <ClCompile Include="3.triangle_practice_2.cpp" />
+    <ClCompile Include="4.triangle_practice_3.cpp" />
     <ClCompile Include="5.shaders_uniform.cpp" />
     <ClCompile Include="6.shaders_interpolation.cpp" />
     <ClCompile Include="7.shaders_class.cpp" />
+    <ClCompile Include="8.shaders_practices.cpp" />
     <ClCompile Include="base.cpp" />
     <ClCompile Include="glad.c" />
   </ItemGroup>
@@ -149,6 +150,8 @@
   <ItemGroup>
     <None Include="shader\shader.fs" />
     <None Include="shader\shader.vs" />
+    <None Include="shader\shader_8.fs" />
+    <None Include="shader\shader_8.vs" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
